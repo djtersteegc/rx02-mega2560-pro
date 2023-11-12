@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "RX02 Mega2560 Pro")
+    (date "2023-11-12")
+    (rev "1.2")
+    (company "Chris Tersteeg")
+  )
+
   (lib_symbols
     (symbol "2041021-3:2041021-3" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 36.83 7.62 0)

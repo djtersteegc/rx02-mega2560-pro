@@ -14,6 +14,20 @@ There is an interactive BOM at https://djtersteegc.github.io/rx02-mega2560-pro/i
 
 C1 and C2 are bulk storage caps for the 5V rail, any value over 33uF should do.  C7 is a 47uF tantalum to prevent sag on the 3.3V rail when hot swapping the SD card since there is usually quite a bit of in rush current.  You can probably do without, especially if you never intend to hot swap since it's not really supported by the firmware.
 
+The SD card connector is commonly available from several different Chinese suppliers and often called "long body", "non popping", or"push pull".  Here's some links on LCSC.
+
+https://www.lcsc.com/product-detail/SD-Card-Connectors_Hanbo-Electronic-SD-112_C961673.html
+
+https://www.lcsc.com/product-detail/SD-Card-Connectors_XUNPU-SD-102_C266602.html
+
+https://www.lcsc.com/product-detail/SD-Card-Connectors_Megastar-ZX-SD-282-8Y_C7419835.html
+
+It should also cross with a Wurth 693063010911 or AMP GSD090012SEU if you want something domestically.
+
+You can also use BSS138 FET's in place of the 2N7002's.
+
+
+
 # Assembly
 
 This time around I used the same resistor references as AK6DN's original version so his resistor stuffing table is the same. Most of the resistor footprints should NOT be populated.
@@ -42,7 +56,7 @@ Then flip in over and do the bottom.  Followed by the headers and then the 40 pi
 
 # Case
 
-Make sure to print two copies of the buttoms. Angle the board in connector side first and it should drop in.  It's a snap fit design, so no screws needed to assemble.
+Make sure to print two copies of the buttons. Angle the board in connector side first and it should drop in.  It's a snap fit design, so no screws needed to assemble.
 
 ![case](docs/designspark.png)
 
